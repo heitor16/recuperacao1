@@ -69,7 +69,7 @@ display: none;
 
 @media screen and (min-width: 1024px) {
   .gridimg{
-     background-color: #73718f;  
+     background-color: #73718f;
   }
   .imagem{
     border-top-color: #3a30c2;
@@ -93,14 +93,16 @@ display: none;
 width: 60px;
 height: 60px;
 }
-
-
-
-
-
-
-
-
-
-
+.opcoes{
+   display: block ruby;
+}
+.opcoes__menu{
+  padding: 0 1em
+}
+.opcoes__link{
+  text-decoration: none;
+  color: var(--preto)
+}
+.container__imagem--transparent{
+  display: none;
 }
