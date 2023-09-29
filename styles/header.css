@@ -65,12 +65,13 @@ margin-bottom: 7px;
 text-align: center;
 display: none;
 }
-
+.opcoes{
+  display: none;
+}
 
 @media screen and (min-width: 1024px) {
-  .gridimg{
-     background-color: #73718f;
-  }
+
+
   .imagem{
     border-top-color: #3a30c2;
     border-left-color: #3a30c2;
@@ -80,6 +81,9 @@ display: none;
     height: 160px!important;
   }
 
+.cabecalho__menu-hamburguer{
+    display: none;
+}
   .titulo2{
     font-size: 50px;
     color:aqua;
@@ -94,9 +98,10 @@ width: 60px;
 height: 60px;
 }
 .opcoes{
-   display: block ruby;
+   display:block ruby;
 }
-.opcoes__menu{
+
+.opcoes__item{
   padding: 0 1em
 }
 .opcoes__link{
@@ -105,4 +110,12 @@ height: 60px;
 }
 .container__imagem--transparent{
   display: none;
+}
+.opcoes__botao:checked~.lista-menu{
+  display:block;
+  width: auto;
+}
+.opcoes__botao{
+  display:none;
+}
 }
